@@ -1,0 +1,133 @@
+\documentclass[amsmath,preprintnumbers,10pt,twocolumn,prl]{revtex4-1}
+\usepackage{amsbsy}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{subfigure}
+
+\newcommand{\Tr}{\text{Tr}}
+\newcommand{\Ai}{\text{Ai}}
+\newcommand{\Bi}{\text{Bi}}
+\newcommand{\Real}{\text{Re}}
+\newcommand{\Imag}{\text{Im}}
+
+\usepackage{verbatim}
+
+\begin{document}
+\title{Topological boundary modes in stochastic and soft matter systems.}
+\author{} 
+\affiliation{The University of Chicago, Chicago, IL, 60637}
+
+\begin{abstract}
+
+Various experiments and theoretical studies have confirmed that important biological processes, such as DNA replication, ligand recognition in immunological response, and timing of cell cycle events are very precise. The precision and robustness of these networks is surprising especially given that the networks operate in conditions where the influence of thermal fluctuations is high. Here we propose an answer to the basic question: How ? 
+
+\end{abstract}
+\maketitle 
+
+%Cells use complex networks of interacting molecular components to transfer and process information. These computational devices of living cellls are responsible for many important cellular processes, including cell-cycle regulation and signal transduction. Here we address the issue of the sensitivity of the networks to variations in their biochemical parameters. We propose a mechanism for robust adaptation in simple signal transduction networks. We show that this mechanism applies in particular to bacterial chemotaxis2?7. This is demonstrated within a quantitative model which explains, in a unified way, many aspects of chemotaxis, including proper responses to chemical gradients8?12. The adaptation property10,13?16 is a consequence of the network?s connectivity and does not require the ?fine-tuning? of parameters. We argue that the key properties of biochemical networks should be robust in order to ensure their proper functioning.
+
+%The E. coli chemotaxis apparatus has served as a model system to study adaptation and ultra sensitivity in biological systems\cite{Cluzel2014}. The transmembrane chemoreceptor complex in E. Coli is very sensitive to changes in concentrations of extracellular chemoattractants and guides the flagella in response. A rapid change in the concentration of an external chemoattractant results in a change in the activity of the receptor and subsequently to downstream activation of the flagella. The activity of the motor returns almost exactly to its pre stimulus value as soon as the concentration of the external chemoattractant settles in to a new steady state. This mechanism ensures that the E.coli responds robustly to gradients in the chemoattractant concentration. This phenomena of exact adaptation is a remarkable feature of the E. Coli chemotaxis apparatus and of other biological sensory systems. Understanding the driving forces responsible for this phenomena remains an active area of research\cite{Sourjik2012}\cite{Tu2008a}\cite{Yuan2013}\cite{Bai2010}. 
+
+%The Barkai-Leibler model for the E.coli receptor introduced the concept of robustness and led to a class of models that do not require fine-tuning in order to achieve adaptation\cite{Barkai1997}. More recent work from the Yu-Hai Tu  and  co-workers has revealed the thermodynamic requirements for accurate adaptation. Using general considerations, they showed that the mechanisms responsible for adaptation in E. coli and other organisms have to operate far from equilibrium\cite{Lan2012}. Their work raises questions related to the thermodynamic and energetic requirements for robust adaptation: a perspective that is not present in the the Barkai-Leibler framework. 
+
+%At the other end of the E. coli chemotaxis setup is the flagellar motor. Receptor activation in response to changes in the chemoattractant  concentration results in the phosphorylation of the the ligand CHEY. The binding of the phosphorylated ligand, CHEY-P, to the flagellar motor biases the rotational state of the motor from a counterclockwise (run) state to a  clockwise (tumble) state. The response of the motor to CHEY-P is ultra sensitive. 
+%Most existing frameworks explain the ultra sensitive  response of the motor using  equilibrium allosteric models. However, recent work has raised questions about the applicability of a purely equilibrium framework to explain ultra sensitivity. The experimentally observed distribution of dwell times of the flagella motor in the counterclockwise or clockwise states cannot be supported using just an equilibrium assumption. Further, the high binding constants needed in the equilibrium model to explain the ultra sensitive response is not supported by an experiments\cite{Tu2008}. 
+%Finally recent experiments by Berg and co-workers have revealed that the structure of the motor itself changes in response to various external perturbations\cite{Tu2013a,Lele2012}. Such dynamical changes in the binding energy cannot be captured by the current equilibrium allosteric model. Non-equilibrium forces will play an important role in a generalized framework to explain the functioning of the E. coli flagella motor. 
+
+%Given these new experimental and theoretical results, the framework used to understand ultra sensitivity and robustness in E. coli chemotaxis and other biophysical processes needs to be re-examined. Any new framework must take into full consideration the important role played by far-from-equilibrium forces. In this paper we take the first steps towards this goal. 
+%Specifically, we show that non equilibrium networks with topologies similar to those of the consensus networks \cite{Endres2006,Tu2008} controlling, receptor dynamics, and flagellar rotation, can generically support features such as robust adaptation and ultra sensitivity. Our work provides a compact and general non-equilibrium thermodynamic framework to understand these features in biological systems. It identifies the energetic requirements to achieve ultra sensitivity and adaptation in a finite time and places constraints on the class of models that can be used to study such phenomena in biological systems.  
+
+
+The discovery of topological insulating states in electronic, photonic and more recently mechanical systems have led to the construction of novel design principles for robust modes in these systems. Topologically protected modes are more robust against the presence of perturbations due to disorder and environmental fluctuations. As such, strategies that allow for such modes to be created and encoded in soft matter and biophysical systems is highly desirable. In this paper, we propose that topologically protected modes can indeed be encoded in a variety of biological and soft matter systems. As in the electronic and photonic systems, the topologically protected modes we discover are localized at interfaces. The modes are highly robust and insensitive to perturbations. 
+In some specific contexts, the localization indirectly implies an edge current. In all the instances considered in this paper, topological protection requires that the fundamental equations of motion have some element of dissipative coupling. 
+
+
+We derive our results in two broad contexts. In the first, we consider biochemical networks with connectivity motivated by those of networks commonly encountered in biophysical information processing and control. We had previously studied this but now we point out why ... 
+In a previous paper we suggested that the properties of certain non-equilibrium Markov states can be understood in terms of topological winding numbers. Specifically, the steady states found in these non-equilibrium Markov networks are localized upon a mismatch of winding numbers. We suggested that this topological connection can be a route to understand robustness. In this paper, we establish a formal connection between steady states of non-equilibrium Markov processes and ground states of topologically protected Hamiltonians. 
+
+Next, we consider soft matter systems generically composed of driven rotors. Such rotors can be realized in colloidal motors REF[ Lubensky, Irivne], and biophysical models in which microscopic angular momentum. We consider hydrodynamic equations that describe the dynamics of these systems. These equations of motion typically resolve the vorticity and local angular momentum. The hydrodynamic equations have a structure very different from that of master equations considered in the first example. Nonetheless, we find that the hydrodynamical equations support topologically protected modes in which the angular momentum and vorticity are localized. Localized vorticity leads to localized edge currents (and possibly forces) at boundaries. Our results hence elucidate the design principles required for novel steady states in various biophysical and colloidal systems. 
+
+\section{Topological protection in Markov networks}
+To derive our results in the context of non-equilibrium stochastic models, we consider the minimal Markov state model the we introduced in Ref. The Markov state model is composed of two translationally invariant \textit{bulk} like regions with an \textit{interface} connecting them. Specifically, the rates of transitions in the \textit{bulk} regions do not depend on the position along the horizontal axis. The rates in the interfacial region interpolate between the two bulks. As explained in that paper, the spatial connectivity and structure of this Markov state network resembles that of networks routinely used to study adaptation~\cite{Lan2012}, kinetic proofreading~\cite{Murugan2012}, and cell signal sensing~\cite{Mehta2012}. These and other Markov state representations of biophysical processes can often be decomposed into \textit{bulk} like subgraphs stitched together by interfaces. The subgraphs are formed by finite periodic replication of a particular module or motif. 
+
+We note that in many biophysical models, the requirement of translationally symmetric regions is a rather stringent one. For instance, when Fig 1 is viewed in an information processing context (as described in Ref~\cite{Mehta2012}), the rates of transitions along the horizontal axis are scaled according to the location of the node along the horizontal axis. In the SI, we demonstrate that our results can be applicable even in such contexts if the ratio of forward to reverse transition along a horizontal link in the bulk is independent of the location of the link along the horizontal axis.  Thus, our results are applicable even in cases where translational symmetry is not immediately apparent. 
+
+
+The dynamics of a system described by the network in Fig 1 can be modeled using a master equation, 
+\begin{equation}
+\label{eq:master}
+\frac{\partial p}{\partial t}=W p 
+\end{equation}
+where the vector $p$ contains the probability of occupancy of various nodes in the network and $W$ is a state to state transition matrix. 
+
+The state to state transition matrix by itself doesn't have symmetries which one usually associates with topological protection. The eigenvalue spectrum of the master equation necessarily has one zero eigenvalue with the rest of the eigenvalues being less than zero. Further, $W$ is usually non-hermitian and can have complex eigenvalues. In this form, Eq.~\ref{eq:master} doesn't not posses any obvious topological properties. We now show that the matrix $W$ indeed can have topological properties. In the following paragraph, we outline the structure of our argument. A detailed calculation is presented in the supplementary information. 
+
+
+In order to uncover the topological properties of the master equation, we first note that the rate of change of probability can be expressed in a continuity form, 
+\begin{equation}
+\label{eq:continuity}
+\frac{\partial p}{\partial t}=W_0 J 
+\end{equation}
+where $W_0$ is a discrete representation of the divergence operator and $J$ is a vector of currents across each link in the network. The matrix $W_0$ depends only on the topology of the network and not on transition rates. The current vector $J$ can in turn be expressed in terms of the probability vector $p$ using  $J=W_1 p$ where the matrix $W_1$ is a function of the transition rates in the network. Further, since we are mainly interested in networks of the form in Fig 1, which posses transitional symmetry along one (horizontal) axis and the interface spans the other (vertical) axis, we decompose rate matrix of this system as 
+\begin{equation}
+\label{eq:defineWdecompose}
+W=W_0^x W_1^x + W_0^y W_1^y
+\end{equation}
+where $W_{0/1}^{x/y}$ are square matrices and are discrete representations of the continuity operator in the (horizontal) $x$ and (vertical) $y$ directions. 
+and we have decomposed $W$ along the horizontal and vertical axis separately. Since the interface spans the vertical axis, we choose the decomposition 
+\begin{equation}
+\label{eq:defineWdecompose1}
+W=W_0^x (W_1^x + {W_0^x}^{-1} W_0^y W_1^y)\equiv W_0^x \tilde{W_1^x}
+\end{equation}
+
+These arguments imply that any master equation rate matrix $W$ can be decomposed as a product of two matrices, $W=W_0^x \tilde W_1^x$. The crucial point in this decomposition is that $W_0^x$ doesn't depend on the transition rates and possesses no interfaces. Using this property, we construct arguments to show that $W$ can have topologically protected modes whenever the following Hermitian operator constructed with $\tilde W_1^x$ is non trivial, 
+\begin{equation}
+\label{eq:defineH}
+H=\left( \begin{array}{cc}
+0 & \tilde W_1^x\\
+\tilde W_1^x & 0  \end{array} \right)\
+\end{equation} 
+
+
+
+
+Using this decomposition, we generalize the notion of local index for the non-Hermitian master equation operator. 
+
+
+
+
+A crucial intermediate step in our proof is a the non Hermitian operator
+\begin{equation}
+\label{eq:defineH}
+H=\left( \begin{array}{cc}
+0 & W_0\\
+W_1 & 0  \end{array} \right)\
+\end{equation} 
+This matrix $H$ has eigenvalues that are the square root of the eigenvalues of $W$ (Ref Kane and Lubensky).  
+
+
+
+
+A square root of $W$ can now be taken using 
+\begin{equation}
+\label{eq:defineH1}
+H=\left( \begin{array}{cc}
+0 & W^x_0\\
+\tilde{W}^x_1 & 0  \end{array} \right)\
+\end{equation} 
+While this matrix is still non-Hermitian, it doesn't suffer from issue (a). A technical note: $W_0^x$ is usually uninvertible and has a zero eigenvalue. We normalize it by considering tilted master equations. The parameter $\lambda$ represents the tilt. In the SI, we show that the topological properties of $H$ defined in Eq.~\ref{eq:defineH1} are in fact controlled only by $\tilde{W}^x_1$. In other words, the master equation has topologically non-trivial modes whenever the Hermitian operator 
+\begin{equation}
+\label{eq:defineH2}
+H=\left( \begin{array}{cc}
+0 & {\tilde{W_x}}^{\rm T}\\
+\tilde{W_x} & 0  \end{array} \right)\
+\end{equation} 
+is topologicaly non-trivial. This is the main result of our paper. The proof essentially relies on the following two observations : The operator $W_0$ is topologically trivial and doesn't distinguish between the two bulk phases.  The eigenvectors of $W_0$ are either delocalized or very weakly localized. These properties allow us to demonstrate that whenever the operator defined in Eq.~\ref{eq:defineH2} is topologically nontrivial, the steady state of the original master equation is non-trivial. More generally, this prescription can be generalized to higher dimensional systems. The direction for $W_0$ can be chosen to be perpendicular to the interface. 
+
+We first demonstrate our results by considering the network in Fig. A winding number for the effective Hermitian operator $H$ can be constructed. We show the spectrum of the master equation and two $H$ operators for two cases a) with an interface with vacuum and b) an interface between two bulks. In both cases the localization seen is predicted by our approach. 
+
+
+Now what we have established our results for the quasi 1 D case, we will now establish our results for two d networks. with different kinds of interfaces. We see that localization as predicted. 
+
+
+\end{document}
